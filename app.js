@@ -9,7 +9,7 @@ const expressHbs = require('express-handlebars');
 const app = express();
 
 app.engine('handlebars',expressHbs());
-app.set('view engine','handlebars');
+app.set('view engine','ejs');
 app.set('views','views');
 
 app.use(bodyParser.urlencoded({extended: false}));
