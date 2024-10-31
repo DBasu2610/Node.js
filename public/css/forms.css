@@ -18,3 +18,11 @@
 .form-control input:focus {
     outline-color: #00695c;
 }
+
+.form-control textarea {
+    border: 1px solid #a1a1a1;
+    font: inherit;
+    border-radius: 2px;
+    width: 100%;
+    resize: vertical;
+}
